@@ -1,0 +1,228 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* header */
+header {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+
+  padding-right: 40px;
+  padding-left: 20px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header-nav a {
+  margin: 0 20px;
+  font-size: x-large;
+}
+
+.header-container {
+  background-color: #579857;
+
+}
+
+.logo {
+  width: 120px;
+  display: block;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+header a:hover {
+  color: #9df39d;
+}
+
+
+/* hero img */
+.hero-img{
+  width: 100%;
+  display: block;
+}
+
+
+/* hero cards */
+.hero-cards-container,
+.all-cards-container,
+.fav-list-container {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 25px;
+  text-align: center;
+
+  padding: 40px;
+
+  align-items: center;
+
+  border-radius: 5%;
+}
+
+.movie-card {
+  background-color: #579857;
+  border-radius: 5%;
+  overflow: hidden;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+
+  padding-bottom: 20px;
+}
+
+.cards-img {
+  display: block;
+
+
+  object-fit: cover;
+
+  width: 100%;
+  height: 800px;
+
+  border-radius: 5% 5% 0 0;
+}
+
+
+
+/* footer */
+footer {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,1fr);
+
+  padding-top: 20px;
+
+  background-color: #579857;
+
+}
+
+footer .logo {
+  width: 150px;
+  justify-self: center;
+}
+
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+footer a:hover{
+  color: #9df39d;
+}
+
+.footer-nav nav,
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  text-align: center;
+
+  font-size: large;
+}
+
+footer p {
+  grid-column: 1 / -1;  
+  margin: 0;
+  text-align: center;
+}
+
+
+
+/* ind underside */
+
+.individuel-container {
+  display: flex;
+  justify-content: center;
+  padding: 50px 20px;
+  background-color: #223a22;
+}
+
+.individuel-container .movie-card {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  max-width: 900px;
+  width: 100%;
+  background-color: #579857;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.individuel-container .cards-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.individuel-container .movie-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 35px;
+  text-align: left;
+}
+
+.individuel-container .movie-info h2 {
+  margin-top: 0;
+  font-size: 35px;
+}
+
+.individuel-container .movie-info p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+
+/* Små knapper på filmkort */
+
+.movie-info button {
+  border: none;
+  border-radius: 5px;
+  padding: 7px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Få mere at vide */
+
+.movie-info a button {
+  background-color: #223a22;
+  color: white;
+}
+
+.movie-info a button:hover {
+  background-color: #395c39;
+}
+
+/* Favorit */
+
+.add-to-fav,
+.remove-from-fav {
+  background-color: white;
+  color: #e63946;
+  font-size: 20px;
+  padding: 4px 9px;
+  margin-top: 8px;
+}
+
+.add-to-fav:hover,
+.remove-from-fav:hover {
+  background-color: #e63946;
+  color: white;
+}

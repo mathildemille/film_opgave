@@ -1,0 +1,38 @@
+Mandag 07-09-2026
+Tidsplan 
+Finde ud af hvordan de skal se ud
+
+Tirsdag 08-09-2026
+Lav json fil med data
+Html
+Header og footer som components
+
+Onsdag 09-09-2026
+Forsiden
+
+Torsdag 10-09-2026
+Film underside med alle film og serier
+
+Fredag 11-09-2026
+Film underside
+
+
+
+Mandag 14-09-2026
+Cards til film underside
+
+Tirsdag 15-09-2026
+Klik på en "få mere info" og gå til en ny side med mere info om filmen/serien
+
+Onsdag 16-09-2026
+Lav localstorage med hjerte
+
+Torsdag 17-09-2026
+
+
+
+
+
+
+
+
